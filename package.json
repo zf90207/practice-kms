@@ -1,0 +1,11 @@
+{
+  "name": "practice-kms",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/zf90207/practice-kms.git",
+  "author": "zf90207 <zf90207@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^4.3.4"
+  }
+}
