@@ -5,7 +5,22 @@
   "repository": "https://github.com/zf90207/practice-kms.git",
   "author": "zf90207 <zf90207@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "build": "yarn run tsc",
+    "test": "yarn run jest --coverage",
+    "format": "prettier --write ./src"
+  },
   "dependencies": {
     "typescript": "^4.3.4"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "testEnvironemnt": "node"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.23",
+    "jest": "^27.0.5",
+    "prettier": "2.3.2",
+    "ts-jest": "^27.0.3"
   }
 }
